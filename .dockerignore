@@ -1,0 +1,52 @@
+# VCS
+.git/
+.github/
+.gitignore
+
+# 문서
+*.md
+LICENSE
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# 가상환경
+.venv/
+venv/
+ENV/
+env.bak/
+
+# 테스트/커버리지
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# DB 볼륨
+mariadb_data/
+qdrant_storage/
+
+# 환경 변수
+.env
+env
+.envrc
+
+# 빌드 산출물
+dist/
+build/
+*.egg-info/
+
+# 로그
+*.log

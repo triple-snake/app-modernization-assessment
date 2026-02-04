@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Docker 볼륨 데이터 (로컬 개발용)
+mariadb_data/data/
+qdrant_data/
+
+# DB 연결 정보 (.env는 이미 위에 포함됨)
+# env
